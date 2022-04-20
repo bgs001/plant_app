@@ -12,7 +12,7 @@ class PlantDetailPage extends StatelessWidget {
     final plant = plants[plantId];
     return Scaffold(
         appBar: AppBar(
-          title: Text("Plant Detail Page"),
+          title: Text("Описание растения"),
         ),
         body: Padding(
           padding: EdgeInsets.all(15),
